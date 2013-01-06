@@ -7,10 +7,10 @@ generate_table = lambda { |multiplier|
 
 		for row_num in (1..5)
 
+			clue_value = row_num * multiplier
 			html += "\t\t\t\t\t\t<tr>\n"
-
+			
 			for col_num in (1..6)
-				clue_value = col_num * multiplier
 				html += <<-EOS
 							<td>
 								<span>$#{clue_value}</span>
@@ -19,7 +19,7 @@ generate_table = lambda { |multiplier|
 									<button value="0">Didn't Answer</button>
 									<button value="-#{clue_value}">Incorrect</button>
 								</div>
-							</td>" 
+							</td>
 							EOS
 			end
 
