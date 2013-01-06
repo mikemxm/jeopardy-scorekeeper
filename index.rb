@@ -1,11 +1,5 @@
 #!/usr/bin/ruby
 
-require 'rubygems'
-
-
-
-puts "Content-Type: text/html\n\n"
-
 generate_table = lambda { |multiplier|
 
 		html = ""
@@ -41,6 +35,7 @@ sj_table = generate_table.call(200)
 dj_table = generate_table.call(400)
 
 document = <<EOD
+Content-Type: text/html\n\n
 <!DOCTYPE html>
 <html>
 	<head>
