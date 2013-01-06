@@ -49,6 +49,7 @@ document += <<EOD
 		<h1>Jeopardy Scorekeeper</h1>
 		<div id="container">
 			<form>
+				<h2>Single Jeopardy</h2>
 				<table class="scoreboard sj">
 					<thead>
 						<tr>
@@ -62,6 +63,24 @@ document += <<EOD
 					<thead>
 					<tbody>
 						#{sj_table}
+					</tbody>
+				</table>
+
+
+				<h2>Double Jeopardy</h2>
+				<table class="scoreboard dj">
+					<thead>
+						<tr>
+							<th><textarea>DJ Category 1</textarea></th>
+							<th><textarea>DJ Category 2</textarea></th>
+							<th><textarea>DJ Category 3</textarea></th>
+							<th><textarea>DJ Category 4</textarea></th>
+							<th><textarea>DJ Category 5</textarea></th>
+							<th><textarea>DJ Category 6</textarea></th>
+						</tr>
+					<thead>
+					<tbody>
+						#{dj_table}
 					</tbody>
 				</table>
 			</form>
