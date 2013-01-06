@@ -1,2 +1,2 @@
 AddType cgi-script .rb
-DirectoryIndex index.rb index.html index.*
+DirectoryIndex index.rb index.html
