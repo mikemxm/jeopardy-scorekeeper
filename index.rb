@@ -1,5 +1,6 @@
 #!/usr/bin/ruby
 
+
 generate_table = lambda { |multiplier|
 
 		html = ""
@@ -30,9 +31,10 @@ generate_table = lambda { |multiplier|
 
 	}
 
+
 # the argument is the value multiplied by the iterator to yield clue value
-#sj_table = generate_table.call(200)
-#dj_table = generate_table.call(400)
+sj_table = generate_table.call(200)
+dj_table = generate_table.call(400)
 
 document = "Content-Type: text/html\n\nhoy"
 
