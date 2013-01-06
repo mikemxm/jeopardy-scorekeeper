@@ -28,7 +28,7 @@ generate_table = lambda { |multiplier|
 
 		html
 
-	})
+	}
 
 # the argument is the value multiplied by the iterator to yield clue value
 sj_table = generate_table.call(200)
