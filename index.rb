@@ -34,8 +34,11 @@ generate_table = lambda { |multiplier|
 sj_table = generate_table.call(200)
 dj_table = generate_table.call(400)
 
-document = <<EOD
-Content-Type: text/html\n\n
+document = "Content-Type: text/html\n\nhoy"
+
+
+=begin
+document += <<EOD
 <!DOCTYPE html>
 <html>
 	<head>
@@ -68,5 +71,6 @@ Content-Type: text/html\n\n
 	</body>
 </html>
 EOD
+=end
 
 puts document
