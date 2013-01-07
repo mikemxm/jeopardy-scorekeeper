@@ -1,1 +1,1 @@
-alert('test')
+$(".scoreboard").css("background-color: magenta;")
