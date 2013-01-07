@@ -47,7 +47,7 @@ document += <<EOD
 	</head>
 	<body>
 		<h1>Jeopardy Scorekeeper</h1>
-		<div id="container">
+		<div class="container">
 			<form>
 				<h2>Single Jeopardy</h2>
 				<table class="scoreboard sj">
