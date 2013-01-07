@@ -61,7 +61,7 @@ document += <<EOD
 							<th><textarea>SJ Category 5</textarea></th>
 							<th><textarea>SJ Category 6</textarea></th>
 						</tr>
-					<thead>
+					</thead>
 					<tbody>
 						#{sj_table}
 					</tbody>
@@ -79,7 +79,7 @@ document += <<EOD
 							<th><textarea>DJ Category 5</textarea></th>
 							<th><textarea>DJ Category 6</textarea></th>
 						</tr>
-					<thead>
+					</thead>
 					<tbody>
 						#{dj_table}
 					</tbody>
