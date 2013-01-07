@@ -36,6 +36,8 @@ generate_table = lambda { |multiplier|
 sj_table = generate_table.call(200)
 dj_table = generate_table.call(400)
 
+dontcache_num = Time.now
+
 document = "Content-Type: text/html\n\n"
 
 document += <<EOD
@@ -44,7 +46,7 @@ document += <<EOD
 	<head>
 		<title>Jeopardy Scorekeeper</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-		<link href="css/jeopardy.css" rel="stylesheet" media="screen">
+		<link href="css/jeopardy.css?dontcache=#{dontcache_num}" rel="stylesheet" media="screen">
 	</head>
 	<body>
 		<h1>Jeopardy Scorekeeper</h1>
