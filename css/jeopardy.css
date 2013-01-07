@@ -1,4 +1,8 @@
-*, body {
+*, body, table, td, tr, h1, div {
 	text-align: center;
 	margin: 0 auto;
+}
+
+textarea {
+	width: 60px;
 }
