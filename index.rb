@@ -88,7 +88,7 @@ document += <<EOD
 		</div>
 		<script src="//code.jquery.com/jquery-latest.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="js/jeopardy.js"></script> 
+		<script src="js/jeopardy.js"></script>
 	</body>
 </html>
 EOD
