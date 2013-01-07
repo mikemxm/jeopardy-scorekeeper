@@ -1,1 +1,1 @@
-$(".scoreboard").css("border: 1px solid yellow")
+$("body").css("background-color", "green")
