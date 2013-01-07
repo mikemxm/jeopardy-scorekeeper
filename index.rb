@@ -15,9 +15,9 @@ generate_table = lambda { |multiplier|
 							<td>
 								<span>$#{clue_value}</span>
 								<div>
-									<button value="#{clue_value}">Correct</button>
-									<button value="0">Didn't Answer</button>
-									<button value="-#{clue_value}">Incorrect</button>
+									<button value="#{clue_value}">Right</button>
+									<button value="0">DA</button>
+									<button value="-#{clue_value}">Wrong</button>
 								</div>
 							</td>
 							EOS
