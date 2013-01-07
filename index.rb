@@ -44,6 +44,7 @@ document += <<EOD
 	<head>
 		<title>Jeopardy Scorekeeper</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="css/jeopardy.css" ref="stylesheet" media="screen">
 	</head>
 	<body>
 		<h1>Jeopardy Scorekeeper</h1>
