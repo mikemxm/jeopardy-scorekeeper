@@ -4,6 +4,7 @@
 generate_table = lambda { |multiplier|
 
 		html = ""
+		jeopardy_round = (multiplier/200 == 1) ? "sj" : "dj"
 
 		for row_num in (1..5)
 
@@ -15,9 +16,9 @@ generate_table = lambda { |multiplier|
 							<td>
 								<span>$#{clue_value}</span>
 								<div>
-									<button class="correct" value="#{clue_value}">Right</button>
-									<button class="didnt-answer" value="0">DA</button>
-									<button class="incorrect" value="-#{clue_value}">Wrong</button>
+									<input type="radio" name="#{jeopardy_round}#{row_num}#{col_num}" class="correct" value="#{clue_value}">
+									<input type="radio" name="#{jeopardy_round}#{row_num}#{col_num}" class="didnt-answer" value="0" checked="checked">
+									<input type="radio" name="#{jeopardy_round}#{row_num}#{col_num}" class="incorrect" value="-#{clue_value}">
 								</div>
 							</td>
 							EOS
