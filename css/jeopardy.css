@@ -1,8 +1,32 @@
-*, body, table, td, tr, h1, div {
+*, body {
 	text-align: center;
 	margin: 0 auto;
 }
 
 textarea {
-	width: 60px;
+	width: 100px;
+	height: 55px;
+}
+
+td {
+	padding: 5px 15px;
+}
+
+.correct {
+	width: 30px;
+	height: 25px;
+	background: url('/img/glyphicons-halflings.png') 187px 2px #DFD;
+}
+
+.incorrect {
+	width: 30px;
+	height: 25px;
+	background: url('/img/glyphicons-halflings.png') 163px 3px #FDD;
+}
+
+.didnt-answer {
+	width: 30px;
+	height: 25px;
+	background: url('/img/glyphicons-halflings.png') 140px 66px #EEE;
+
 }
