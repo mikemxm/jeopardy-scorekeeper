@@ -14,39 +14,50 @@ td {
 
 .pressed {
 	border: 2px inset !important;
-}
+	}
 
 input[type='radio']:checked + label {
 	
-}
-
-div.custom-radio {
-	width: 29px;
-	height: 24px;
-	position: relative;
-	display: inline-block;
 	}
 
-div.custom-radio input {
-	position: absolute;
+td	div:nth-child(1) {
+	width: 85px;
+	height: 85px;
 	}
 
-div.custom-radio label {
-	position: absolute;
-	z-index: 1;
-	width: 100%;
-	height: 100%;
-	border: 2px outset;
+td	div:nth-child(2) {
+	width: 85px;
+	height: 85px;
+	display: none;
 	}
 
-	label.correct {
-		background: url('/img/glyphicons-halflings.png') 187px 2px #DFD;
+	div.custom-radio {
+		width: 29px;
+		height: 24px;
+		position: relative;
+		
 		}
 
-	label.incorrect {
-		background: url('/img/glyphicons-halflings.png') 163px 3px #FDD;
+	div.custom-radio input {
+		position: absolute;
 		}
 
-	label.didnt-answer {
-		background: url('/img/glyphicons-halflings.png') 140px 66px #EEE;
+	div.custom-radio label {
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		height: 100%;
+		border: 2px outset;
 		}
+
+		label.correct {
+			background: url('/img/glyphicons-halflings.png') 187px 2px #DFD;
+			}
+
+		label.incorrect {
+			background: url('/img/glyphicons-halflings.png') 163px 3px #FDD;
+			}
+
+		label.didnt-answer {
+			background: url('/img/glyphicons-halflings.png') 140px 66px #EEE;
+			}
