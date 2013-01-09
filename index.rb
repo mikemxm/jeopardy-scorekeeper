@@ -21,11 +21,11 @@ generate_table = lambda { |multiplier|
 										<label for="#{jeopardy_round}#{row_num}#{col_num}correct" class="correct"> </label>
 									</div>
 									<div class="custom-radio">
-										<input type="radio" name="#{jeopardy_round}#{row_num}#{col_num}" name="#{jeopardy_round}#{row_num}#{col_num}da" class="didnt-answer" value="0" checked="checked">
+										<input type="radio" name="#{jeopardy_round}#{row_num}#{col_num}" id="#{jeopardy_round}#{row_num}#{col_num}da" class="didnt-answer" value="0" checked="checked">
 										<label for="#{jeopardy_round}#{row_num}#{col_num}da" class="didnt-answer"> </label>
 									</div>
 									<div class="custom-radio">
-										<input type="radio" name="#{jeopardy_round}#{row_num}#{col_num}" name="#{jeopardy_round}#{row_num}#{col_num}incorrect" class="incorrect" value="-#{clue_value}">
+										<input type="radio" name="#{jeopardy_round}#{row_num}#{col_num}" id="#{jeopardy_round}#{row_num}#{col_num}incorrect" class="incorrect" value="-#{clue_value}">
 										<label for="#{jeopardy_round}#{row_num}#{col_num}incorrect" class="incorrect"> </label>
 									</div>
 								</div>
