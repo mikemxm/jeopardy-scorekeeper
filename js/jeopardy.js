@@ -28,6 +28,7 @@ $('label').mouseup(function() {
 	$(this).removeClass("pressed")
 });
 
-$('label').change(function() {
+$('label').click(function() {
+	$('form').change()
 	update_totals()
 });
