@@ -17,7 +17,7 @@ td {
 }
 
 input[type='radio']:checked + label {
-	height: 50px;
+	
 }
 
 div.custom-radio {
@@ -39,14 +39,14 @@ div.custom-radio label {
 	border: 2px outset;
 	}
 
-	.correct {
+	label.correct {
 		background: url('/img/glyphicons-halflings.png') 187px 2px #DFD;
 		}
 
-	.incorrect {
+	label.incorrect {
 		background: url('/img/glyphicons-halflings.png') 163px 3px #FDD;
 		}
 
-	.didnt-answer {
+	label.didnt-answer {
 		background: url('/img/glyphicons-halflings.png') 140px 66px #EEE;
 		}
