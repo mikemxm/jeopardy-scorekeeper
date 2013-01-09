@@ -12,6 +12,7 @@ function update_totals() {
 	console.log(total_score)
 }
 
+
 function sum_of_form(form_id) {
 	var running_total = 0
 	$("form#" + form_id + " input:checked").each(function() {
@@ -31,3 +32,19 @@ $('label').mouseup(function() {
 $('input').change(function() {
 	update_totals()
 });
+
+
+/* Clue Hover Behavior:                                    */
+/*  DISABLED UNTIL LATER IN DEVELOPMENT                    */
+/* * Note: didn't use .toggle() because .toggle() doesn't  
+		know to set the answer button div to block         */
+/* * Show answer buttons when mouseover a clue value...    */
+//$('td div:nth-child(1)').mouseover(function() {
+//	$(this).css('display','none')
+//	$(this).next().css('display','block')
+//});
+/* * ...and hide them onmouseout                           */
+//$('td div:nth-child(2)').mouseout(function() {
+//	$(this).css('display','none')
+//	$(this).prev().css('display','block')
+//});

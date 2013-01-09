@@ -8,8 +8,18 @@ textarea {
 	height: 55px;
 	}
 
+table {
+	border-spacing: 7px;
+	background-color: #224;
+	border-collapse: separate;
+}
+
 td {
-	padding: 5px 15px;
+	width: 85px;
+	height: 85px;
+	color: yellow;
+	font-weight: bold;
+	background-color: #060ce9;
 	}
 
 .pressed {
@@ -17,47 +27,54 @@ td {
 	}
 
 input[type='radio']:checked + label {
-	
+	/* styling for the button that's currently selected */
 	}
 
-td	div:nth-child(1) {
-	width: 85px;
-	height: 85px;
-	}
 
-td	div:nth-child(2) {
-	width: 85px;
-	height: 85px;
+td > div:nth-child(1) {
+	line-height: 85px;
 	display: none;
 	}
+
+td > div:nth-child(2) {
+	display: block;
+	width: 100%;
+	height: 100%;
+	}
+
+	div span {
+		display: block;
+		}
 
 	div.custom-radio {
 		width: 29px;
 		height: 24px;
 		position: relative;
-		
+		display: inline-block;		
 		}
-
 	div.custom-radio input {
 		position: absolute;
-		}
+	}
 
 	div.custom-radio label {
 		position: absolute;
+		top: 0;
+		left: 0;
 		z-index: 1;
-		width: 100%;
-		height: 100%;
+		width: 29px;
+		height: 24px;
 		border: 2px outset;
+		display: inline-block;
 		}
 
 		label.correct {
-			background: url('/img/glyphicons-halflings.png') 187px 2px #DFD;
+			background: url('/img/glyphicons-halflings.png') 187px 2px #dfd;
 			}
 
 		label.incorrect {
-			background: url('/img/glyphicons-halflings.png') 163px 3px #FDD;
+			background: url('/img/glyphicons-halflings.png') 163px 3px #fdd;
 			}
 
 		label.didnt-answer {
-			background: url('/img/glyphicons-halflings.png') 140px 66px #EEE;
+			background: url('/img/glyphicons-halflings.png') 140px 66px #eee;
 			}
