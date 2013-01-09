@@ -78,8 +78,8 @@ document += <<EOD
 						#{sj_table}
 					</tbody>
 				</table>
-
-
+			</form>
+			<form>
 				<h2>Double Jeopardy</h2>
 				<table class="scoreboard dj">
 					<thead>
