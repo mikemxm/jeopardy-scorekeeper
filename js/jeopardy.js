@@ -15,7 +15,7 @@ function update_totals() {
 function sum_of_form(form_id) {
 	var running_total = 0
 	$("form#" + form_id + " input").each(function() {
-		running_total += this.value
+		running_total += parseInt(this.value)
 	});
 	return running_total
 }
