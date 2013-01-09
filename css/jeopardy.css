@@ -16,6 +16,10 @@ td {
 	border: 2px inset !important;
 }
 
+input[type='radio']:checked + label {
+	height: 50px;
+}
+
 div.custom-radio {
 	width: 29px;
 	height: 24px;
