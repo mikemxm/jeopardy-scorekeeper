@@ -13,7 +13,7 @@ td {
 	}
 
 .pressed {
-	border: inset !important;
+	border: 2px inset !important;
 }
 
 div.custom-radio {
