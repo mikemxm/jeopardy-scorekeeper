@@ -61,7 +61,7 @@ document += <<EOD
 	<body>
 		<h1>Jeopardy Scorekeeper</h1>
 		<div class="container">
-			<form>
+			<form id="sj">
 				<h2>Single Jeopardy</h2>
 				<table class="scoreboard sj">
 					<thead>
@@ -79,7 +79,7 @@ document += <<EOD
 					</tbody>
 				</table>
 			</form>
-			<form>
+			<form id="dj">
 				<h2>Double Jeopardy</h2>
 				<table class="scoreboard dj">
 					<thead>
