@@ -1,32 +1,53 @@
 *, body {
 	text-align: center;
 	margin: 0 auto;
-}
+	}
 
 textarea {
 	width: 100px;
 	height: 55px;
-}
+	}
 
 td {
 	padding: 5px 15px;
-}
+	}
 
-.correct {
+
+
+div.custom-radio {
 	width: 30px;
-	height: 25px;
-	background: url('/img/glyphicons-halflings.png') 187px 2px #DFD;
-}
+	height: 30px;
+	position: relative;
+	display: inline-block;
+	}
 
-.incorrect {
-	width: 30px;
-	height: 25px;
-	background: url('/img/glyphicons-halflings.png') 163px 3px #FDD;
-}
+div.custom-radio input {
+	position: absolute;
+	}
 
-.didnt-answer {
-	width: 30px;
-	height: 25px;
-	background: url('/img/glyphicons-halflings.png') 140px 66px #EEE;
+div.custom-radio label {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	border: 2px outset;
+	}
 
-}
+	.correct {
+		width: 30px;
+		height: 25px;
+		background: url('/img/glyphicons-halflings.png') 187px 2px #DFD;
+		}
+
+	.incorrect {
+		width: 30px;
+		height: 25px;
+		background: url('/img/glyphicons-halflings.png') 163px 3px #FDD;
+		}
+
+	.didnt-answer {
+		width: 30px;
+		height: 25px;
+		background: url('/img/glyphicons-halflings.png') 140px 66px #EEE;
+
+		}
