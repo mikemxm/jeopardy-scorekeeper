@@ -1,8 +1,9 @@
 var sj_score = 0, dj_score = 0, total_score = 0
 
-$('button').click(function () {
-	event.preventDefault();
-	console.log(this.value)
+$('label').mousedown(function() {
+	this.addClass("pressed")
 });
 
-$('button').empty().css
+$('label').mouseup(function() {
+	this.removeClass("pressed")
+});
