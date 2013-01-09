@@ -16,9 +16,18 @@ generate_table = lambda { |multiplier|
 							<td>
 								<span>$#{clue_value}</span>
 								<div>
-									<input type="radio" name="#{jeopardy_round}#{row_num}#{col_num}" class="correct" value="#{clue_value}">
-									<input type="radio" name="#{jeopardy_round}#{row_num}#{col_num}" class="didnt-answer" value="0" checked="checked">
-									<input type="radio" name="#{jeopardy_round}#{row_num}#{col_num}" class="incorrect" value="-#{clue_value}">
+									<div class="custom-radio">
+										<input type="radio" name="#{jeopardy_round}#{row_num}#{col_num}" id="#{jeopardy_round}#{row_num}#{col_num}correct" class="correct" value="#{clue_value}">
+										<label for="#{jeopardy_round}#{row_num}#{col_num}correct"> </label>
+									</div>
+									<div class="custom-radio">
+										<input type="radio" name="#{jeopardy_round}#{row_num}#{col_num}" name="#{jeopardy_round}#{row_num}#{col_num}da" class="didnt-answer" value="0" checked="checked">
+										<label for="#{jeopardy_round}#{row_num}#{col_num}da"> </label>
+									</div>
+									<div class="custom-radio">
+										<input type="radio" name="#{jeopardy_round}#{row_num}#{col_num}" name="#{jeopardy_round}#{row_num}#{col_num}incorrect" class="incorrect" value="-#{clue_value}">
+										<label for="#{jeopardy_round}#{row_num}#{col_num}incorrect"> </label>
+									</div>
 								</div>
 							</td>
 							EOS
