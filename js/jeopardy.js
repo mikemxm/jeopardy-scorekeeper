@@ -7,9 +7,25 @@ function update_totals() {
 	sj_score = sum_of_form("sj")
 	dj_score = sum_of_form("dj")
 	total_score = sj_score + dj_score;
-	console.log(sj_score)
-	console.log(dj_score)
-	console.log(total_score)
+	display_score("sj-score",sj_score)
+	display_score("dj-score",dj_score)
+	display_score("total-score",total_score)
+}
+
+function display_score(id, score) {
+	if (score == 0) {
+		active_class = "score-zero"
+		inactive_classes = "score-positive score-negative"
+	} else if (score < 0) {
+		active_class = "score-negative"
+		inactive_classes = "score-positive score-zero"
+	} else {
+		active_class = "score-positive"
+		inactive_classes = "score-zero score-negative"		
+	}
+
+	$( "#"+id ).addClass(active_class).removeClass(inactive_classes).html("$ "+score)
+
 }
 
 
