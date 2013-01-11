@@ -80,6 +80,10 @@ document += <<EOD
 					</tbody>
 				</table>
 			</form>
+			<div id="sj-score" class="score-zero">
+				<span>Single Jeopardy Score</span>
+				<span class="current-score">$ 0</span>
+			</div> 
 			<form id="dj">
 				<h2>Double Jeopardy</h2>
 				<table class="scoreboard dj">
@@ -98,6 +102,14 @@ document += <<EOD
 					</tbody>
 				</table>
 			</form>
+			<div id="dj-score" class="score-zero">
+				<span>Double Jeopardy Score</span>
+				<span class="current-score">$ 0</span>
+			</div>
+			<div id="total-score" class="score-zero">
+				<span>Total Score</span>
+				<span class="current-score">$ 0</span>
+			</div>
 		</div>
 		<script src="//code.jquery.com/jquery-latest.js"></script>
 		<script src="js/bootstrap.min.js"></script>
