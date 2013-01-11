@@ -30,15 +30,15 @@ input[type='radio']:checked + label {
 	/* styling for the button that's currently selected */
 	}
 
-.score_negative {
+.score-negative {
 	color: red;
 	}
 
-.score_zero {
+.score-zero {
 	color: gray;
 	}
 
-.score_positive {
+.score-positive {
 	color: black;
 	}
 
