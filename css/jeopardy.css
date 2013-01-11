@@ -30,7 +30,20 @@ input[type='radio']:checked + label {
 	/* styling for the button that's currently selected */
 	}
 
+.score_negative {
+	color: red;
+	}
 
+.score_zero {
+	color: gray;
+	}
+
+.score_positive {
+	color: black;
+	}
+
+
+/* -- Styles for correct/da/incorrect buttons -- */
 td > div:nth-child(1) {
 	line-height: 85px;
 	display: none;
