@@ -51,16 +51,15 @@ $('input').change(function() {
 
 
 /* Clue Hover Behavior:                                    */
-/*  DISABLED UNTIL LATER IN DEVELOPMENT                    */
 /* * Note: didn't use .toggle() because .toggle() doesn't  
 		know to set the answer button div to block         */
 /* * Show answer buttons when mouseover a clue value...    */
-//$('td div:nth-child(1)').mouseover(function() {
-//	$(this).css('display','none')
-//	$(this).next().css('display','block')
-//});
+$('td div:nth-child(1)').mouseover(function() {
+	$(this).css('display','none')
+	$(this).next().css('display','block')
+});
 /* * ...and hide them onmouseout                           */
-//$('td div:nth-child(2)').mouseout(function() {
-//	$(this).css('display','none')
-//	$(this).prev().css('display','block')
-//});
+$('td div:nth-child(2)').mouseout(function() {
+	$(this).css('display','none')
+	$(this).prev().css('display','block')
+});
