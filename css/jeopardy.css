@@ -46,11 +46,11 @@ input[type='radio']:checked + label {
 /* -- Styles for correct/da/incorrect buttons -- */
 td > div:nth-child(1) {
 	line-height: 85px;
-	display: none;
+	display: block;
 	}
 
 td > div:nth-child(2) {
-	display: block;
+	display: none;
 	width: 100%;
 	height: 100%;
 	}
