@@ -24,7 +24,7 @@ function display_score(id, score) {
 		inactive_classes = "score-zero score-negative"		
 	}
 
-	$( "#"+id ).addClass(active_class).removeClass(inactive_classes).html("$ "+score)
+	$( "#"+id+".current-score" ).addClass(active_class).removeClass(inactive_classes).html("$ "+score)
 
 }
 
