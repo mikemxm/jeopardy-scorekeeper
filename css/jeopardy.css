@@ -19,6 +19,10 @@ textarea {
 	line-height: 15px;
 	}
 
+	textarea:focus {
+		z-index: 5;
+		}
+
 table {
 	border-spacing: 5px;
 	background-color: #224;
@@ -59,7 +63,6 @@ input[type='radio']:checked + label {
 
 
 div.container {
-	padding-top: 60px;
 	padding-top: 75px;
 	width: 100%;
 	}
