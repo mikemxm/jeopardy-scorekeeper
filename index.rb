@@ -60,10 +60,8 @@ document += <<EOD
 		<link href="css/jeopardy.css?dontcache=#{dontcache_num}" rel="stylesheet" media="screen">
 	</head>
 	<body>
-		<h1>Jeopardy Scorekeeper</h1>
 		<div class="container">
 			<form id="sj">
-				<h2>Single Jeopardy</h2>
 				<table class="scoreboard sj">
 					<thead>
 						<tr>
@@ -85,7 +83,6 @@ document += <<EOD
 				<span class="current-score">$ 0</span>
 			</div> 
 			<form id="dj">
-				<h2>Double Jeopardy</h2>
 				<table class="scoreboard dj">
 					<thead>
 						<tr>
