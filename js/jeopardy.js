@@ -48,7 +48,7 @@ $('label').mouseup(function() {
 	var new_bg;
 	if ($(this).hasClass("correct")) {
 		new_bg = "#3a3"
-	} else if ($(this).hasClass("da")) {
+	} else if ($(this).hasClass("didnt-answer")) {
 		new_bg = "#aab"
 	} else if ($(this).hasClass("incorrect")) {
 		new_bg = "#a33"
