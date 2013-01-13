@@ -73,7 +73,6 @@ document += <<EOD
 				<span>Total Score</span>
 				<span class="current-score">$ 0</span>
 			</div>
-
 		</div>
 		<div class="container">
 			<form id="sj">

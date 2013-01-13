@@ -1,4 +1,4 @@
-*, body {
+body {
 	text-align: center;
 	margin: 0 auto;
 	background-color: #F0F0F0;
@@ -54,6 +54,9 @@ input[type='radio']:checked + label {
 	color: black;
 	}
 
+div#container {
+	margin-top: 40px;
+	}
 
 /* -- Styles for displayed scores -- */
 div#score-display {
