@@ -3,6 +3,10 @@
 	margin: 0 auto;
 	}
 
+	body {
+		background-color: #F0F0F0;
+		}
+
 textarea {
 	width: 100px;
 	height: 50px;
@@ -56,7 +60,6 @@ input[type='radio']:checked + label {
 
 div.container {
 	margin-top: 40px;
-	background-color: #F0F0F0;
 	}
 
 /* -- Styles for displayed scores -- */
