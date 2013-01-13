@@ -67,12 +67,12 @@ document += <<EOD
 				<table class="scoreboard sj">
 					<thead>
 						<tr>
-							<th><textarea>SJ Category 1</textarea></th>
-							<th><textarea>SJ Category 2</textarea></th>
-							<th><textarea>SJ Category 3</textarea></th>
-							<th><textarea>SJ Category 4</textarea></th>
-							<th><textarea>SJ Category 5</textarea></th>
-							<th><textarea>SJ Category 6</textarea></th>
+							<th><textarea>\n\rSJ Category 1</textarea></th>
+							<th><textarea>\n\rSJ Category 2</textarea></th>
+							<th><textarea>\n\rSJ Category 3</textarea></th>
+							<th><textarea>\n\rSJ Category 4</textarea></th>
+							<th><textarea>\n\rSJ Category 5</textarea></th>
+							<th><textarea>\n\rSJ Category 6</textarea></th>
 						</tr>
 					</thead>
 					<tbody>
@@ -89,12 +89,12 @@ document += <<EOD
 				<table class="scoreboard dj">
 					<thead>
 						<tr>
-							<th><textarea>DJ Category 1</textarea></th>
-							<th><textarea>DJ Category 2</textarea></th>
-							<th><textarea>DJ Category 3</textarea></th>
-							<th><textarea>DJ Category 4</textarea></th>
-							<th><textarea>DJ Category 5</textarea></th>
-							<th><textarea>DJ Category 6</textarea></th>
+							<th><textarea>\n\rDJ Category 1</textarea></th>
+							<th><textarea>\n\rDJ Category 2</textarea></th>
+							<th><textarea>\n\rDJ Category 3</textarea></th>
+							<th><textarea>\n\rDJ Category 4</textarea></th>
+							<th><textarea>\n\rDJ Category 5</textarea></th>
+							<th><textarea>\n\rDJ Category 6</textarea></th>
 						</tr>
 					</thead>
 					<tbody>
