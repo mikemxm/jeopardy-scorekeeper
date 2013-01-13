@@ -60,6 +60,21 @@ document += <<EOD
 		<link href="css/jeopardy.css?dontcache=#{dontcache_num}" rel="stylesheet" media="screen">
 	</head>
 	<body>
+		<div id="score-display">
+			<div id="sj-score" class="score-zero">
+				<span>Single Jeopardy Score</span>
+				<span class="current-score">$ 0</span>
+			</div> 
+			<div id="dj-score" class="score-zero">
+				<span>Double Jeopardy Score</span>
+				<span class="current-score">$ 0</span>
+			</div>
+			<div id="total-score" class="score-zero">
+				<span>Total Score</span>
+				<span class="current-score">$ 0</span>
+			</div>
+
+		</div>
 		<div class="container">
 			<form id="sj">
 				<table class="scoreboard sj">
@@ -78,10 +93,6 @@ document += <<EOD
 					</tbody>
 				</table>
 			</form>
-			<div id="sj-score" class="score-zero">
-				<span>Single Jeopardy Score</span>
-				<span class="current-score">$ 0</span>
-			</div> 
 			<form id="dj">
 				<table class="scoreboard dj">
 					<thead>
@@ -99,14 +110,6 @@ document += <<EOD
 					</tbody>
 				</table>
 			</form>
-			<div id="dj-score" class="score-zero">
-				<span>Double Jeopardy Score</span>
-				<span class="current-score">$ 0</span>
-			</div>
-			<div id="total-score" class="score-zero">
-				<span>Total Score</span>
-				<span class="current-score">$ 0</span>
-			</div>
 		</div>
 		<script src="//code.jquery.com/jquery-latest.js"></script>
 		<script src="js/bootstrap.min.js"></script>
