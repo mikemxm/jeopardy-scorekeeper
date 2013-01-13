@@ -5,21 +5,31 @@
 
 textarea {
 	width: 100px;
-	height: 55px;
+	height: 50px;
+	background-color: transparent;
+	color: yellow;
+	font-weight: bold;
+	font-size: 80%;
+	border: none;
+	margin: auto;
 	}
 
 table {
-	border-spacing: 7px;
+	border-spacing: 5px;
 	background-color: #224;
 	border-collapse: separate;
-}
+	}
+
+th {
+	background-color: #060ce9; /* jeopardy blue */
+	}
 
 td {
 	width: 85px;
 	height: 85px;
 	color: yellow;
 	font-weight: bold;
-	background-color: #060ce9;
+	background-color: #060ce9; /* jeopardy blue */
 	}
 
 .pressed {
@@ -43,12 +53,13 @@ input[type='radio']:checked + label {
 	}
 
 
-/* -- Styles for correct/da/incorrect buttons -- */
+/* -- Styles for clue value (td not hovered) -- */
 td > div:nth-child(1) {
 	line-height: 85px;
 	display: block;
 	}
 
+/* -- Styles for correct/da/incorrect buttons (td hover) -- */
 td > div:nth-child(2) {
 	display: none;
 	width: 100%;
