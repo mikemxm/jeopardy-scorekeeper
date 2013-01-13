@@ -55,11 +55,12 @@ $('input').change(function() {
 		know to set the answer button div to block         */
 $('td').mouseenter(function() {
 /* * Show answer buttons when mouseover a clue value...    */
-	$("div:first-child",this).css('display','none')
-	$("div:last-child",this).css('display','block')
-}).mouseleave(function() {
+	$(">div:first-child",this).css('display','none')
+	$(">div:last-child",this).css('display','block')
+});
+$('td').mouseleave(function() {
 /* * ...and hide them onmouseout                           */
-	$("div:last-child",this).css('display','none')
-	$("div:first-child",this).css('display','block')
+	$(">div:last-child",this).css('display','none')
+	$(">div:first-child",this).css('display','block')
 
 });
