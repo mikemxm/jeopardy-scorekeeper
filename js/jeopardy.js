@@ -42,7 +42,20 @@ $('label').mousedown(function() {
 });
 
 $('label').mouseup(function() {
-	$(this).removeClass("pressed")
+	$(this).removeClass("pressed");
+	/* Change clue value td's bg color to indicate current 
+		choice of correct/da/incorrect                     */
+	var new_bg;
+	if ($(this).hasClass("correct")) {
+		new_bg = "#3a3"
+	} else if ($(this).hasClass("didnt-answer")) {
+		new_bg = "#aab"
+	} else if ($(this).hasClass("incorrect")) {
+		new_bg = "#a33"
+	} else {
+		new_bg = "inherit"
+	}
+	$(this).parent().parent().parent().first().css("background",new_bg)
 });
 
 $('input').change(function() {
