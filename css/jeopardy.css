@@ -93,8 +93,11 @@ td > div:nth-child(2) {
 	display: none;
 	width: 100%;
 	height: 100%;
-	padding-top: 33px;
 	}
+
+	td > div:nth-child(2) span {
+		padding-top: 33px;
+		}
 
 	div span {
 		display: block;
