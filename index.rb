@@ -116,6 +116,9 @@ document += <<EOD
 		<script type="text/javascript">
 
   var _gaq = _gaq || [];
+var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
   _gaq.push(['_setAccount', 'UA-37667606-1']);
   _gaq.push(['_trackPageview']);
 
