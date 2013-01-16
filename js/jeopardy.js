@@ -47,11 +47,11 @@ $('label').mouseup(function() {
 		choice of correct/da/incorrect                     */
 	var new_bg;
 	if ($(this).hasClass("correct")) {
-		new_bg = "#3a3"
+		new_bg = "#0a0"//"#3a3"
 	} else if ($(this).hasClass("didnt-answer")) {
-		new_bg = "#aab"
+		new_bg = "#666"
 	} else if ($(this).hasClass("incorrect")) {
-		new_bg = "#a33"
+		new_bg = "#a00"
 	} else {
 		new_bg = "inherit"
 	}
@@ -77,6 +77,7 @@ $('td').mouseleave(function() {
 	$(">div:first-child",this).css('display','block')
 
 });
+
 $('textarea').focus(function() {
 	$(this).empty();
 });
