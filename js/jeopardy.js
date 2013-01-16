@@ -77,3 +77,6 @@ $('td').mouseleave(function() {
 	$(">div:first-child",this).css('display','block')
 
 });
+$('textarea').focus(function() {
+	$(this).empty();
+});
