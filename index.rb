@@ -14,7 +14,7 @@ generate_table = lambda { |multiplier|
 			for col_num in (1..6)
 				html += <<-EOS
 							<td>
-								<div>$#{clue_value}</div>
+								<div><span>$#{clue_value}</span></div>
 								<div>
 									<span>$#{clue_value}</span>
 									<div class="custom-radio">
