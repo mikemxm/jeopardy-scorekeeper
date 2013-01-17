@@ -77,7 +77,16 @@ $('td').mouseleave(function() {
 	$(">div:first-child",this).css('display','block')
 
 });
-
+/* Category Title Behavior:                                */
 $('textarea').focus(function() {
 	$(this).empty();
+});
+/* Daily Double Notice Link Behavior:                      */
+$('#daily-double-notice > a').click(function(event) {
+	$('#coryat-explanation').toggle();
+	event.preventDefault();
+});
+$('#coryat-dismiss').click(function(event) {
+	$('#coryat-explanation').toggle();
+	event.preventDefault();
 });

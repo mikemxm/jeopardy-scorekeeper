@@ -75,6 +75,10 @@ document += <<EOD
 			</div>
 		</div>
 		<div class="container">
+			<div class="notice">
+				<span id="daily-double-notice"><a href="#">What about Daily Doubles & Final Jeopardy?</a></span>
+				<span id="coryat-explanation">This scorekeeper calculates your <a href="http://j-archive.com/help.php#coryatscore">Coryat Adjusted Score</a>. Final Jeopardy does not factor into your Coryat score. Daily Doubles yield the default clue value if you're correct, but you do not penalize yourself for an incorrect guess.<br><a href="#" id="coryat-dismiss">Dismiss this notice</a></span>
+			</div>
 			<form id="sj">
 				<table class="scoreboard sj">
 					<thead>
